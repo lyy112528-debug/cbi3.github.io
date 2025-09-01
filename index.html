@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cbi1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <title>Online Market</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+            <div class="brand">  
+                <a class="navbar-brand" href="#"> <img src="imgs/niapng.png" alt=""> CBI Market</a>
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="menu">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Feature</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" aria-expanded="false">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Contact</a>
+                </li>
+                </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        </div>
+      </nav>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="imgs/slide3.jpg" class="d-block w-100" alt="..." width="1400" height="570">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>CBI Fashion Shop</h5>
+              <h6>Wow Get Up</h6>
+              <h6>Discound 40%</h6>
+              <p>Tel 012 601 112/081 987 888/031 555 800</p>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imgs/slide4.jpg" class="d-block w-100" alt="..." width="1400" height="570">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>CBI Fashion Shop</h5>
+              <h6>Wow Get Up</h6>
+              <h6>Discound 40%</h6>
+              <p>Tel 012 601 112/081 987 888/031 555 800</p>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/slide6.jpg" class="d-block w-100" alt="..." width="1400" height="570">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>CBI Fashion Shop</h5>
+              <h6>Wow Get Up</h6>
+              <h6>Discound 40%</h6>
+              <p>Tel 012 601 112/081 987 888/031 555 800</p>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/slide7.jpg" class="d-block w-100" alt="..." width="1400" height="570">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>CBI Fashion Shop</h5>
+              <h6>Wow Get Up</h6>
+              <h6>Discound 40%</h6>
+              <p>Tel 012 601 112/081 987 888/031 555 800</p>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/slide8.jpg" class="d-block w-100" alt="..." width="1400" height="570">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>CBI Fashion Shop</h5>
+              <h6>Wow Get Up</h6>
+              <h6>Discound 40%</h6>
+              <p>Tel 012 601 112/081 987 888/031 555 800</p>
+              <button>  Shop Now</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="section1">
+        <div class="row">
+          <ul>
+            <li><a href="#">Return & Exchange</a></li>
+            <li><a href="#">Resive Gif</a></li>
+            <li><a href="#">Online Support</a></li>
+            <input type="text" placeholder="your email here">
+            <button class="btn1">SUBSCRIBE</button>
+          </ul>
+        </div>
+      </section>
+      <section class="section2">
+        <h1>New Products</h1>
+        <div class="card-group">
+          <div class="card">
+            <img src="imgs/img18.jpg" class="card-img-top" alt="..." width="200" height="400">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text"><small><del>100$</del></small><span>60%</span></p>
+              <button>Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imgs/img19.jpg" class="card-img-top" alt="..."width="200" height="400">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text"><small><del>100$</del></small><span>60%</span></p>
+              <button>Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imgs/img17.jpg" class="card-img-top" alt="..."width="200" height="400">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text"><small><del>100$</del></small><span>60%</span></p>
+              <button>Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imgs/img20.jpg" class="card-img-top" alt="..."width="200" height="400">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text"><small><del>100$</del></small><span>60%</span></p>
+              <button>Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imgs/img16.webp" class="card-img-top" alt="..."width="200" height="400">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text"><small><del>100$</del></small><span>60%</span></p>
+              <button>Buy Now</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section3">
+        <div class="text">
+            <h1>Lady Look at Product</h1>
+                <p>
+                This type of pant made of denim belongs to slim fit type, which can let the girls and ladies <br> wearing it taller and 
+                thinner. You can wear it to do sport, visit and so on. I¡¯m sure you will <br> like it.Material: DenimColors: White, Black, BlueSize: S, M, L, XL, 2XLWaistline: 
+                Regular <br> WaistPocket: YesPattern: Pure ColorFit.
+                </p>
+                <button class="btn1">SHOP NOW</button>
+                <button class="btn2">GET Deler </button>
+        </div>
+      </section>
+      <section class="section4">
+        <h1>JUST IMPORTENT</h1>
+        <div class="row row-cols-1 row-cols-md-5 g-5">
+            <div class="col">
+              <div class="card">
+                <img src="imgs/i1.jpg" class="card-img-top" alt="..." height="250px">
+                <div class="card-body">
+                    <div class="album-info">
+                        <h3>New Collection</h3>
+                        <h3>Production Name</h3>
+                        <p><small><del>$100.20</del><span>$200</span></small></p>
+                    </div>
+                        <p class="album-text">
+                        This type of pant made of denim belongs to slim fit type, which can let the girls and ladies wearing 
+                        it taller and thinner. You can wear it to do sport, visit and so on. 
+                        </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="imgs/i5.jpg" class="card-img-top" alt="..." height="250px">
+                  <div class="card-body">
+                      <div class="album-info">
+                          <h3>New Collection</h3>
+                          <h3>Production Name</h3>
+                          <p><small><del>$100.20</del><span>$200</span></small></p>
+                      </div>
+                          <p class="album-text">
+                          This type of pant made of denim belongs to slim fit type, which can let the girls and ladies wearing 
+                          it taller and thinner. You can wear it to do sport, visit and so on. 
+                          </p>
+                  </div>
+                </div>
+              </div>
+            <div class="col">
+              <div class="card">
+                <img src="imgs/i2.jpg" class="card-img-top" alt="..." height="250px">
+                <div class="card-body">
+                    <div class="album-info">
+                        <h3>New Collection</h3>
+                        <h3>Production Name</h3>
+                        <p><small><del>$100.20</del><span>$200</span></small></p>
+                    </div>
+                        <p class="album-text">
+                        This type of pant made of denim belongs to slim fit type, which can let the girls and ladies wearing 
+                        it taller and thinner. You can wear it to do sport, visit and so on. 
+                        </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="imgs/i3.jpg" class="card-img-top" alt="..." height="250px">
+                <div class="card-body">
+                    <div class="album-info">
+                        <h3>New Collection</h3>
+                        <h3>Production Name</h3>
+                        <p><small><del>$100.20</del><span>$200</span></small></p>
+                    </div>
+                        <p class="album-text">
+                        This type of pant made of denim belongs to slim fit type, which can let the girls and ladies wearing 
+                        it taller and thinner. You can wear it to do sport, visit and so on. 
+                        </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="imgs/i4.jpg" class="card-img-top" alt="..." height="250px">
+                <div class="card-body">
+                    <div class="album-info">
+                        <h3>New Collection</h3>
+                        <h3>Production Name</h3>
+                        <p><small><del>$100.20</del><span>$200</span></small></p>
+                    </div>
+                        <p class="album-text">
+                        This type of pant made of denim belongs to slim fit type, which can let the girls and ladies wearing 
+                        it taller and thinner. You can wear it to do sport, visit and so on. 
+                        </p>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="section6">
+        <h1>New Product</h1>
+        <div class="row row-cols-2 row-cols-md-4 g-8">
+            <div class="col">
+              <div class="card">
+                <img src="imgs/s1.jpg" class="card-img-top" alt="..." width="300" height="200">
+                <a href="cbi2.html"><button>Buy Now</button></a>
+                <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <p><small><del>$100.20</del><span>$200</span></small></p>
+                    <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="imgs/s2.jpg" class="card-img-top" alt="..." width="300" height="200">
+                <a href="cbi2.html"><button>Buy Now</button></a>
+                <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <p><small><del>$100.20</del><span>$200</span></small></p>
+                    <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="imgs/s3.jpg" class="card-img-top" alt="..." width="300" height="200">
+                <a href="cbi2.html"><button>Buy Now</button></a>
+                <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <p><small><del>$100.20</del><span>$200</span></small></p>
+                    <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="imgs/s4.jpg" class="card-img-top" alt="..." width="300" height="200">
+                <a href="cbi2.html"><button>Buy Now</button></a>
+                <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <p><small><del>$100.20</del><span>$200</span></small></p>
+                    <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="imgs/s5.jpg" class="card-img-top" alt="..." width="300" height="200">
+                  <a href="cbi2.html"><button>Buy Now</button></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <p><small><del>$100.20</del><span>$200</span></small></p>
+                    <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="imgs/s6.jpg" class="card-img-top" alt="..." width="300" height="200">
+                  <a href="cbi2.html"><button>Buy Now</button></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <p><small><del>$100.20</del><span>$200</span></small></p>
+                    <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="imgs/s7.jpg" class="card-img-top" alt="..." width="300" height="200">
+                  <a href="cbi2.html"><button>Buy Now</button></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <p><small><del>$100.20</del><span>$200</span></small></p>
+                    <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="imgs/s8.jpg" class="card-img-top" alt="..." width="300" height="200">
+                  <a href="cbi2.html"><button>Buy Now</button></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <p><small><del>$100.20</del><span>$200</span></small></p>
+                    <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      <section class="sectionfooter">
+        <section class="mb-0 mt-0">
+          <div class="footer text-white">
+              <div class="   bg-dark pt-5 pb-5">
+                  <div class="container">
+                      <div class="row mb-5">
+                          <div class="col">
+                              <div class="card card-body border-0 mb-0 bg-primary text-light px-md-5 py-md-4 shadow-lg" style="overflow:hidden" data-aos="zoom-out-down">
+                                  <div class="position-relative d-flex flex-column py-md-2 flex-md-row justify-content-between align-items-center">
+                                      <div class="h3 text-center mb-md-0">CBI Market</div>
+                                      <a href="#" class="btn btn-lg btn-light py-md-3 px-md-5 text-info font-weight-bold">
+                                          Shop Now >>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-xs-6 col-sm-3">
+                              <a href="#">
+                                  <img src="imgs/niapng.png" alt=""  width="100px" height="100px">
+                              </a>
+                              <address class="color-light-20">
+                                  <p>Preak Leap National Institute of Agriculture - NIA</p>
+                              </address>
+                          </div>
+                          <div class="col-xs-6 col-sm-3">
+                              <h4 class="my-2">Product</h4>
+                              <ul class="list-unstyled list-light">
+                                  <li>
+                                      <a href="#">Pricing</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Features</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Customers</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Store</a>
+                                  </li>
+                              </ul>
+                          </div>
+                          <br style="clear:both" class="hidden-sm-up">
+                          <div class="col-xs-6 col-sm-3">
+                              <h4 class="my-2">Company</h4>
+                              <ul class="list-unstyled list-light">
+                                  <li>
+                                      <a href="#">About Us</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Blog</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Careers</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Press</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Events</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Contact</a>
+                                  </li>
+                              </ul>
+                          </div>
+                          <div class="col-xs-6 col-sm-3">
+                              <h4 class="my-2">Connect</h4>
+                              <ul class="list-unstyled list-light">
+                                  <li>
+                                      <a href="#">Support</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Social</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Community</a>
+                                  </li>
+                              </ul>
+                              <p class="color-light mt-2">Stay up-to-date!</p>
+                              <form>
+                                  <div class="form-group">
+                                      <div class="input-group mb-3">
+                                          <input type="text" class="form-control form-control-sm" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+                                          <div class="input-group-append">
+                                              <button class="btn btn-primary btn-sm" type="button">Ok</button>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                      <hr>
+                      <div class="row f-flex justify-content-center" >
+                          <div class="col text-center  text-secondary my-1">
+                              <p class="mt-2  text-white2" > 
+                                Department of Information Technology at NIA | Student Horm LyHour
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      </section>
+</body>
+</html>

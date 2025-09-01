@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cbi1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <title>CBI Market</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+            <div class="brand">  
+                <a class="navbar-brand" href="#"> <img src="imgs/niapng.png" alt=""> CBI Market</a>
+            </div>
+          <button class="navbar-toggler" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="menu">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Feature</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" aria-expanded="false">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Contact</a>
+                </li>
+                </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        </div>
+      </nav>
+      <!-------------start container------------------>
+      <div class="container2">
+      <div class="super_container">
+        <div class="single_product">
+            <div class="container-fluid" style=" background-color: #fff; padding: 11px;">
+                <div class="row">
+                    <div class="col-lg-2 order-lg-1 order-2">
+                        <ul class="image_list">
+                            <li><img src="images/gallery-1.jpg" alt=""></li>
+                            <li><img src="images/gallery-2.jpg" alt=""></li>
+                            <li><img src="images/gallery-3.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 order-lg-2 order-1">
+                        <div class="image_selected">
+                          <img src="images/gallery-4.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-3">
+                        <div class="product_description">
+                            <div> <span class="product_price">$ 2000</span> <strike class="product_discount"> <span style='color:black'>$ 50<span> </strike> </div>
+                            <div> <span class="product_saved">You Saved:</span> <span style='color:black'>$ 50<span> </div>
+                            <hr class="singleline">
+                            <div> <span class="product_info">EMI starts at $ 2000. No Cost EMI Available<span><br>
+                               <span class="product_info">Warranty: 6 months warranty<span><br> 
+                                <span class="product_info">7 Days easy return policy<span><br> 
+                                  <span class="product_info">7 Days easy return policy<span><br> 
+                                    <span class="product_info">In Stock: 25 units sold this week<span> 
+                            </div>
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="br-dashed">
+                                            <div class="row">
+                                                <div class="col-md-3 col-xs-3"> <img src="https://img.icons8.com/color/48/000000/price-tag.png"> </div>
+                                                <div class="col-md-9 col-xs-9">
+                                                    <div class="pr-info"> <span class="break-all">Get 5% instant discount + 10X rewards @ RENTOPC</span> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7"> </div>
+                                </div>
+                            </div>
+                            <hr class="singleline">
+                            <div class="order_info d-flex flex-row">
+                                <form action="#">
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6" style="margin-left: 13px;">
+                                    <div class="product_quantity"> <span>QTY: </span> <input id="quantity_input" type="text" pattern="[0-9]*" value="1">
+                                        <div class="quantity_buttons">
+                                            <div id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fas fa-chevron-up"></i></div>
+                                            <div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fas fa-chevron-down"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6"> <button type="button" class="btn btn-primary shop-button">Add to Cart</button> <button type="button" class="btn btn-success shop-button">Buy Now</button>
+                                    <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+    <!-----------------start slide product----------------------->
+    <div class="slider">
+      <div class="container">
+        <h2>More Product </h2>
+        <ul class="cards">
+            <li class="card">
+              <img src="imgs/01.webp" class="card-img-top" alt="..." width="300" height="200">
+              <button>Buy Now</button>
+              <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p><small><del>$100.20</del><span>$200</span></small></p>
+                  <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                  </p>
+              </div>
+            </li>
+            <li class="card">
+              <img src="imgs/02.jpg" class="card-img-top" alt="..." width="300" height="200">
+              <button>Buy Now</button>
+              <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p><small><del>$100.20</del><span>$200</span></small></p>
+                  <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                  </p>
+              </div>
+            </li>
+            <li class="card">
+              <img src="imgs/03.webp" class="card-img-top" alt="..." width="300" height="200">
+              <button>Buy Now</button>
+              <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p><small><del>$100.20</del><span>$200</span></small></p>
+                  <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                  </p>
+              </div>
+            </li>
+            <li class="card">
+              <img src="imgs/04.jpg" class="card-img-top" alt="..." width="300" height="200">
+              <button>Buy Now</button>
+              <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p><small><del>$100.20</del><span>$200</span></small></p>
+                  <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                  </p>
+              </div>
+            </li>
+            <li class="card">
+              <img src="imgs/05.jpg" class="card-img-top" alt="..." width="300" height="200">
+              <button>Buy Now</button>
+              <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p><small><del>$100.20</del><span>$200</span></small></p>
+                  <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                  </p>
+              </div>
+            </li>
+            <li class="card">
+              <img src="imgs/06.jpg" class="card-img-top" alt="..." width="300" height="200">
+              <button>Buy Now</button>
+              <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p><small><del>$100.20</del><span>$200</span></small></p>
+                  <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                  </p>
+              </div>
+            </li>
+            <li class="card">
+              <img src="imgs/07.jpg" class="card-img-top" alt="..." width="300" height="200">
+              <button>Buy Now</button>
+              <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p><small><del>$100.20</del><span>$200</span></small></p>
+                  <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                  </p>
+              </div>
+            </li>
+            <li class="card">
+              <img src="imgs/08.jpg" class="card-img-top" alt="..." width="300" height="200">
+              <button>Buy Now</button>
+              <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p><small><del>$100.20</del><span>$200</span></small></p>
+                  <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                  </p>
+              </div>
+            </li>
+            <li class="card">
+              <img src="imgs/09.jpg" class="card-img-top" alt="..." width="300" height="200">
+              <button>Buy Now</button>
+              <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p><small><del>$100.20</del><span>$200</span></small></p>
+                  <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                  </p>
+              </div>
+            </li>
+            <li class="card">
+              <img src="imgs/10.jpg" class="card-img-top" alt="..." width="300" height="200">
+              <button>Buy Now</button>
+              <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p><small><del>$100.20</del><span>$200</span></small></p>
+                  <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                  </p>
+              </div>
+            </li>
+            <li class="card">
+              <img src="imgs/11.jpg" class="card-img-top" alt="..." width="300" height="200">
+              <button>Buy Now</button>
+              <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p><small><del>$100.20</del><span>$200</span></small></p>
+                  <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                  </p>
+              </div>
+            </li>
+            <li class="card">
+              <img src="imgs/12.jpg" class="card-img-top" alt="..." width="300" height="200">
+              <button>Buy Now</button>
+              <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p><small><del>$100.20</del><span>$200</span></small></p>
+                  <p class="card-text">This type of pant made of denim belongs to slim fit type,
+                  </p>
+              </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--------------start footer----------------------------->
+<section class="sectionfooter">
+  <section class="mb-0 mt-0">
+    <div class="footer text-white">
+        <div class="   bg-dark pt-5 pb-5">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col">
+                        <div class="card card-body border-0 mb-0 bg-primary text-light px-md-5 py-md-4 shadow-lg" style="overflow:hidden" data-aos="zoom-out-down">
+                            <div class="position-relative d-flex flex-column py-md-2 flex-md-row justify-content-between align-items-center">
+                                <div class="h3 text-center mb-md-0">CBI Market</div>
+                                <a href="#" class="btn btn-lg btn-light py-md-3 px-md-5 text-info font-weight-bold">
+                                    Shop Now >>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-3">
+                        <a href="#">
+                            <img src="imgs/niapng.png" alt=""  width="100px" height="100px">
+                        </a>
+                        <address class="color-light-20">
+                            <p>Preak Leap National Institute of Agriculture - NIA</p>
+                        </address>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <h4 class="my-2">Product</h4>
+                        <ul class="list-unstyled list-light">
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#">Features</a>
+                            </li>
+                            <li>
+                                <a href="#">Customers</a>
+                            </li>
+                            <li>
+                                <a href="#">Store</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <br style="clear:both" class="hidden-sm-up">
+                    <div class="col-xs-6 col-sm-3">
+                        <h4 class="my-2">Company</h4>
+                        <ul class="list-unstyled list-light">
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Careers</a>
+                            </li>
+                            <li>
+                                <a href="#">Press</a>
+                            </li>
+                            <li>
+                                <a href="#">Events</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <h4 class="my-2">Connect</h4>
+                        <ul class="list-unstyled list-light">
+                            <li>
+                                <a href="#">Support</a>
+                            </li>
+                            <li>
+                                <a href="#">Social</a>
+                            </li>
+                            <li>
+                                <a href="#">Community</a>
+                            </li>
+                        </ul>
+                        <p class="color-light mt-2">Stay up-to-date!</p>
+                        <form>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary btn-sm" type="button">Ok</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <hr>
+                <div class="row f-flex justify-content-center" >
+                    <div class="col text-center  text-secondary my-1">
+                        <p class="mt-2  text-white2" > 
+                          Department of Information Technology at NIA | Student Horm LyHour
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+</body>
+</html>
